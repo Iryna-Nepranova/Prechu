@@ -1,0 +1,23 @@
+.button {
+    border: 1px transparent solid;
+    padding: 10px 5px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #5094f2;
+    margin: 30px 5px; 
+}
+
+.button-name {
+  padding-left: 10px;
+  font-weight: lighter;
+}
+
+.button:hover {
+  color: white;
+  background: #2e50a0;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+

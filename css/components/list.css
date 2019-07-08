@@ -1,0 +1,13 @@
+.list {
+    list-style-type: none;
+    font-size: 17px;
+    color: #909090;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+.list-title {
+    font-size: 30px;
+    color: #6f7173;
+    padding-left: 10px;
+}

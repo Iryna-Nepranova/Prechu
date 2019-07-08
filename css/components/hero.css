@@ -1,0 +1,68 @@
+.hero {
+    background-image: url('../../images/dsfsdfsdfds.png');
+    padding: 20px 0;
+    background-size: cover;
+}
+
+.hero-row {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 0;
+}
+
+@media (min-width: 640px) {
+  .hero-bottom {
+    display: none;
+  }
+}
+
+@media (min-width: 960px) {
+  .hero-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 305px;
+    background-image: url('../../images/Layer_6.png');
+    z-index: -1;
+    display: block;
+  }
+}
+
+.hero-title {
+    font-size: 25px;
+    color: white;
+    margin: 10px 0 0 0;
+    font-weight: lighter;
+} 
+
+.hero-description {
+    max-width: 240px;
+    font-size: 23px;
+    color: white;
+    margin-top: 0;
+}
+
+@media (min-width:640px) {
+  .hero-description {
+    font-size: 25px;   
+  }
+
+  .hero-title {
+  font-size: 30px;
+  }  
+}
+
+@media (min-width:1140px) {
+  .hero-description {
+    font-size: 28px;
+    max-width: 390px;   
+  }
+
+  .hero-title {
+  font-size: 35px;
+  }  
+}
