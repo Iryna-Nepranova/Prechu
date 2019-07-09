@@ -7,9 +7,7 @@
         display: flex;
         justify-content: space-between;
         font-size: 18px;
-        
-        font-weight: bold;
-    }
+}
     .nav-item {
         padding: 10px 0;
         margin-left: 25px;

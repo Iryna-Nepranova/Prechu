@@ -7,7 +7,7 @@
 .card-description {
   font-size: 19px;
   color: #909090;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .card-header {
@@ -17,8 +17,8 @@
 
 .card-background {
   position: relative;
-  height: 136px;
-  width: 137px;
+  height: 90px;
+  width: 91px;
   border-radius: 50%;
   z-index: 2;
   display: flex;
@@ -28,8 +28,8 @@
 
 .cards-icon {
     position: absolute;
-    height: 80px;
-    width: 57px;  
+    height: 60px;
+    width: 47px;  
     z-index: 1;
 }
 
@@ -66,7 +66,23 @@
   .card-description {
     font-size: 14px;
     color: #909090;
-    font-weight: bold;
     margin: 0;
+  }
+  .card-background {
+    position: relative;
+    height: 136px;
+    width: 137px;
+    border-radius: 50%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cards-icon {
+      position: absolute;
+      height: 80px;
+      width: 57px;  
+      z-index: 1;
   }
 }
