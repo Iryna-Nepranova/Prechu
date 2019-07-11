@@ -16,30 +16,14 @@ body {
 
 .container {
   position: relative;
-  max-width: 560px;
+  max-width: 980px;
   margin: 0 auto;
+  padding: 0 30px;
 }
 
 @media (min-width:720px) {
   hr {
     display: none;
-  }
-}
-
-@media (min-width:960px) {
-  .container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  hr {
-    display: none;
-  }
-}
-
-@media (min-width:1140px) {
-  .container {
-    max-width: 980px;
-    margin: 0 auto;
   }
 }
 
@@ -52,10 +36,15 @@ img {
   width: 215px;
   height: 162px;
 }
+
+figure {
+  text-align: right;
+}
  
 .logo {
   display: flex;
-  font-size: 32px;
+  font-size: 42px;
+  letter-spacing: 5px;
 }
 
 .logo:hover {

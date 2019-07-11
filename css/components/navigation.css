@@ -6,14 +6,15 @@
     .navigation {
         display: flex;
         justify-content: space-between;
-        font-size: 18px;
-}
+        font-size: 20px;
+    }
     .nav-item {
         padding: 10px 0;
         margin-left: 25px;
         color: #6c6c6c;
+        letter-spacing: 2px;
     }
-
+    
     .header-right-navbar {
         display: none;
     }
