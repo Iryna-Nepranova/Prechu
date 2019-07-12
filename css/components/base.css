@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: 'News Cycle', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background: #fff;
@@ -44,16 +44,13 @@ figure {
 .logo {
   display: flex;
   font-size: 42px;
-  letter-spacing: 5px;
+  font-weight: lighter;
+
 }
 
 .logo:hover {
   text-decoration: none;
   color: #2e50a0;
-}
-
-.logo-word {
-  color: #009688;
 }
 
 a, .link {
