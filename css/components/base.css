@@ -95,3 +95,7 @@ ol > li > ol {
   color: #909090;
   text-align: center;
 }
+
+h2 {
+  font-weight: normal;
+}
