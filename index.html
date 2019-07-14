@@ -3,6 +3,10 @@
 
   <head>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/components/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/components/slick-theme.css" />
+    <link rel="stylesheet" href="css/components/jquery.bxslider.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PRECHU</title>
@@ -14,36 +18,85 @@
         <div class="header-left">
           <a href="/" class="logo"><span class="icon-quotes-left"></span>Prechu</a>
         </div>
-        <div class="header-right-navfull">
-          <nav class="navigation">
-            <a href="/" class="nav-item">Home</a>
-            <a href="/" class="nav-item">Products</a>
-            <a href="/" class="nav-item">Services</a>
-            <a href="/" class="nav-item">Contact</a>
+        <div class="header-right">
+          <nav class="nav">
+            <a href="" class="nav-item">Home</a>
+            <a href="" class="nav-item">Products</a>
+            <a href="" class="nav-item">Services</a>
+            <a href="" class="nav-item">Contact</a>
           </nav>
-        </div>
-        <div class="header-right-navbar">
-          <a href="/" class="icon-menu"></a>
+          <nav class="nav-mobile">
+            <a href="#" class="icon-menu nav-toggle"></a>
+            <ul>
+              <li><a href="#" class="nav-item mobile">Home</a></li>
+              <li><a href="#" class="nav-item mobile">Products</a></li>
+              <li><a href="#" class="nav-item mobile">Services</a></li>
+              <li><a href="#" class="nav-item mobile">Contact</a></li>
+            </ul>
+          </nav>
         </div>
       </header>
     </div>
     <main>
       <section class="section hero">
-            <div class="hero-bottom"></div>
-        <div class="container hero-row">
-          <div class="row">
-            <div class="col col-1-2">
-              <figure>
-                <img src="images/iphone.png" alt="img" class="hero-picture">
-              </figure>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="hero-bottom"></div>
+              <div class="container hero-row">
+                <div class="row">
+                  <div class="col col-1-1-sm col-1-2-md">
+                    <figure>
+                      <img src="images/iphone.png" alt="img" class="hero-picture">
+                    </figure>
+                  </div>
+                  <div class="col col-1-1-sm col-1-2-md">
+                    <h1 class="hero-title">Lorem Ipsum is simply </h1>
+                    <p class="hero-description">dummy text of the printing & typesetting </p>
+                    <button class="button"><span class="icon-checkmark"></span><span class="button-name">Sign up now</span></button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col col-1-2">
-              <h1 class="hero-title">Lorem Ipsum is simply </h1>
-              <p class="hero-description">dummy text of the printing & typesetting </p>
-              <button class="button"><span class="icon-checkmark"></span><span class="button-name">Sign up now</span></button>
+            <div class="swiper-slide">
+              <div class="hero-bottom"></div>
+              <div class="container hero-row">
+                <div class="row">
+                  <div class="col col-1-1-sm col-1-2-md">
+                    <figure>
+                      <img src="images/Mobile-Transparent.png" alt="img" class="hero-picture">
+                    </figure>
+                  </div>
+                  <div class="col col-1-1-sm col-1-2-md">
+                    <h1 class="hero-title">Lorem Ipsum is simply </h1>
+                    <p class="hero-description"> Duis aute irure dolor in reprehenderit in voluptate. </p>
+                    <button class="button"><span class="icon-checkmark"></span><span class="button-name">Sign up now</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="hero-bottom"></div>
+              <div class="container hero-row">
+                <div class="row">
+                  <div class="col col-1-1-sm col-1-2-md">
+                    <figure>
+                      <img src="images/Mobile-Download-PNG.png" alt="img" class="hero-picture">
+                    </figure>
+                  </div>
+                  <div class="col col-1-1-sm col-1-2-md">
+                    <h1 class="hero-title">Lorem Ipsum is simply </h1>
+                    <p class="hero-description">dummy text of the printing & typesetting </p>
+                    <button class="button"><span class="icon-checkmark"></span><span class="button-name">Sign up now</span></button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next swiper-button-white"></div>
+          <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
       </section>
       <section class="section cards">
         <div class="container">
@@ -60,31 +113,68 @@
               </div>
               <hr>
             </div>
-          <div class="col col-1-1-sm col-1-2-md col-1-3-lg">
-            <div class="card">
-              <div class="card-header">
-                <div class="card-background red"><img src="images/Shape_6.svg" alt="img" class="cards-icon"></div>
+            <div class="col col-1-1-sm col-1-2-md col-1-3-lg">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-background red"><img src="images/Shape_6.svg" alt="img" class="cards-icon"></div>
+                </div>
+                <div class="body">
+                  <h2 class="card-title">Contrary to popular</h2>
+                  <p class="card-description">Lorem Ipsum is not simply random text. It has roots in a piece </p>
+                </div>
               </div>
-              <div class="body">
-                <h2 class="card-title">Contrary to popular</h2>
-                <p class="card-description">Lorem Ipsum is not simply random text. It has roots in a piece </p>
-              </div>
+              <hr>
             </div>
-            <hr>
-          </div>          
-         <div class="col col-1-1-sm col-1-2-md col-1-3-lg">
-            <div class="card">
-              <div class="card-header">
-                <div class="card-background yellow"><img src="images/Shape_5.svg" alt="img" class="cards-icon"></div>
-              </div>
-              <div class="body">
-                <h2 class="card-title">Contrary to popular</h2>
-                <p class="card-description">Lorem Ipsum is not simply random text. It has roots in a piece </p>
+            <div class="col col-1-1-sm col-1-2-md col-1-3-lg">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-background yellow"><img src="images/Shape_5.svg" alt="img" class="cards-icon"></div>
+                </div>
+                <div class="body">
+                  <h2 class="card-title">Contrary to popular</h2>
+                  <p class="card-description">Lorem Ipsum is not simply random text. It has roots in a piece </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-       <hr>
+        <hr>
+      </section>
+      <section class="section section-about">
+        <div class="container">
+          <div class="my-class">
+            <div>
+              <h2 class="section-title">Lorem ipsum dolor sit amet</h2>
+              <ul class="list">
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="section-title">Consectetur adipisicing elit</h2>
+              <ul class="list">
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="section-title">Eos, ratione eaque. </h2>
+              <ul class="list">
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="section shopping-cart">
         <div class="container">
@@ -108,6 +198,51 @@
               </ul>
             </div>
           </div>
+
+          <div class="slider">
+            <div>
+              <div class="row-shop">
+                <div class="col col-1-1-sm col-1-2-md col-img">
+                  <figure>
+                    <img src="images/phone_PNG48952.png" alt="img" class="img-shop">
+                  </figure>
+                </div>
+                <div class="col col-1-1-sm col-1-2-md">
+                  <p class="list-title">Some Bullet text here</p>
+                  <ul class="list">
+                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+                    <li>Lorem Ipsum has been the industry's standard dummy text ever</li>
+                    <li>When an unknown printer took a galley of type and scrambled</li>
+                    <li>It to make a type specimen book. It has survived not only five centuries</li>
+                    <li> But also the leap into electronic typesetting,</li>
+                    <li>Remaining essentially unchanged. It was popularised </li>
+                    <li>The release of Letraset sheets containing Lorem Ipsum passages</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="row-shop">
+                <div class="col col-1-1-sm col-1-2-md col-img">
+                  <figure>
+                    <img src="images/phone_PNG48943.png" alt="img" class="img-shop">
+                  </figure>
+                </div>
+                <div class="col col-1-1-sm col-1-2-md">
+                  <p class="list-title">Some Bullet text here</p>
+                  <ul class="list">
+                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting</li>
+                    <li>Lorem Ipsum has been the industry's standard dummy text ever</li>
+                    <li>When an unknown printer took a galley of type and scrambled</li>
+                    <li>It to make a type specimen book. It has survived not only five centuries</li>
+                    <li> But also the leap into electronic typesetting,</li>
+                    <li>Remaining essentially unchanged. It was popularised </li>
+                    <li>The release of Letraset sheets containing Lorem Ipsum passages</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <hr>
       </section>
@@ -117,6 +252,13 @@
         <p class="copyright">Copyright © 2012-2013 cssauthor.com</p>
       </div>
     </footer>
+    <script src="js/swiper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 
 </html>
