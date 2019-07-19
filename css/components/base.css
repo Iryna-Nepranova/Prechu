@@ -68,7 +68,7 @@ a, .link {
 
 a:hover, .link:hover {
   color:#2e50a0;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 hr {
